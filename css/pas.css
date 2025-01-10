@@ -1,0 +1,571 @@
+@charset "utf-8";
+
+/* 프리텐다드 */
+@font-face {
+    font-family: 'pre_EX';
+    src: url('font/pretendard/Pretendard-ExtraBold.eot');
+    src: url('font/pretendard/Pretendard-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('font/pretendard/Pretendard-ExtraBold.woff2') format('woff2'),
+        url('font/pretendard/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'pre_bold';
+    src: url('font/pretendard/Pretendard-Bold.eot');
+    src: url('font/pretendard/Pretendard-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/pretendard/Pretendard-Bold.woff2') format('woff2'),
+        url('font/pretendard/Pretendard-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'pre_black';
+    src: url('font/pretendard/Pretendard-Black.eot');
+    src: url('font/pretendard/Pretendard-Black.eot?#iefix') format('embedded-opentype'),
+        url('font/pretendard/Pretendard-Black.woff2') format('woff2'),
+        url('font/pretendard/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'pre';
+    src: url('font/pretendard/Pretendard-ExtraLight.eot');
+    src: url('font/pretendard/Pretendard-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('font/pretendard/Pretendard-ExtraLight.woff2') format('woff2'),
+        url('font/pretendard/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'pre';
+    src: url('font/pretendard/Pretendard-Light.eot');
+    src: url('font/pretendard/Pretendard-Light.eot?#iefix') format('embedded-opentype'),
+        url('font/pretendard/Pretendard-Light.woff2') format('woff2'),
+        url('font/pretendard/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'pre';
+    src: url('font/pretendard/Pretendard-Medium.eot');
+    src: url('font/pretendard/Pretendard-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/pretendard/Pretendard-Medium.woff2') format('woff2'),
+        url('font/pretendard/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'pre_re';
+    src: url('font/pretendard/Pretendard-Regular.eot');
+    src: url('font/pretendard/Pretendard-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/pretendard/Pretendard-Regular.woff2') format('woff2'),
+        url('font/pretendard/Pretendard-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'pre';
+    src: url('font/pretendard/Pretendard-Thin.eot');
+    src: url('font/pretendard/Pretendard-Thin.eot?#iefix') format('embedded-opentype'),
+        url('font/pretendard/Pretendard-Thin.woff2') format('woff2'),
+        url('font/pretendard/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'pre';
+    src: url('font/pretendard/Pretendard-SemiBold.eot');
+    src: url('font/pretendard/Pretendard-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('font/pretendard/Pretendard-SemiBold.woff2') format('woff2'),
+        url('font/pretendard/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* G마켓산스 */
+@font-face {
+    font-family: 'Gm_bold';
+    src: url('font/GmarketSans/GmarketSansBold.eot');
+    src: url('font/GmarketSans/GmarketSansBold.eot?#iefix') format('embedded-opentype'),
+        url('font/GmarketSans/GmarketSansBold.woff2') format('woff2'),
+        url('font/GmarketSans/GmarketSansBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gm';
+    src: url('font/GmarketSans/GmarketSansLight.eot');
+    src: url('font/GmarketSans/GmarketSansLight.eot?#iefix') format('embedded-opentype'),
+        url('font/GmarketSans/GmarketSansLight.woff2') format('woff2'),
+        url('font/GmarketSans/GmarketSansLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gm';
+    src: url('font/GmarketSans/GmarketSansMedium.eot');
+    src: url('font/GmarketSans/GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
+        url('font/GmarketSans/GmarketSansMedium.woff2') format('woff2'),
+        url('font/GmarketSans/GmarketSansMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+/* 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* 본문 / 헤더영역 */
+.header{
+    background-color: #000000;
+    color: white;
+    height: 100%;
+}
+.header .inner {
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .inner h1{
+    height: 50px;
+}
+
+/* 헤더 네비게이션 바 */
+.header .inner .nav .gnb{
+    font-family: 'pre_re';
+    display: flex;
+}
+.header .inner .nav .gnb > li{
+    position: relative;
+}
+
+.header .inner .nav .gnb > li .depth1{
+    font-family: 'pre_bold';
+    font-size: 18px;
+    line-height: 80px;
+    padding: 0 21px;
+}
+.header .inner .nav .gnb > li .depth2{
+    opacity: 0;
+    transition: 0.3s;
+    visibility: hidden;
+    
+    width: 100%;
+    height: 300%;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: #000000;
+    text-align: center;
+    z-index: 99;
+}
+.header .inner .nav .gnb > li .depth2 li{
+    padding: 10px 0;
+}
+
+/* 헤더 네비게이션 바 - 호버 */
+.header .inner .nav .gnb > li:hover {
+    background-color: #B9860B;
+}
+.header .inner .nav .gnb > li .depth2 li:hover{
+    background-color: #B9860B;
+}
+.header .inner .nav .gnb:hover li .depth2{
+    opacity:1;
+    visibility: visible;
+}
+
+/* 헤더 우측 아이콘 */
+.header .inner .util li{
+    display: flex;
+    justify-content: space-between;
+}
+.header .inner .util li .image .img_b{
+    display: none;
+}
+.header .inner .util li a img{
+    width: 32px;
+    height: 32px;
+    margin-left: 7px;
+    border-radius: 50%;
+    background-color: white;
+} 
+/* 헤더 우측 아이콘 - 호버 */
+.header .inner .util li a img:hover{
+    border: 1px solid white;
+    background-color: #000000;
+}
+.header .inner .util li .image:hover .img_f{
+    display: none;
+}
+.header .inner .util li .image:hover .img_b{
+    display: block;
+}
+
+
+/* 메인 유튜브 영상*/
+/* 높이 850px */
+.main_video{
+    height: 100vh;
+}
+.main_video video{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+/* 본문 섹션1 PASCUCCIS CHOICE*/
+.section1{
+    margin: 220px auto;
+    width: 1870px;
+    height: 584px;
+}
+
+.section1 .title h1{
+    text-align: center;
+    font-family: 'Gm_bold';
+    font-size: 40px;
+}
+.section1 .title .title_b{
+    margin: 50px auto 70px;
+    display: flex;
+    justify-content: center;
+}
+.section1 .title .title_b a{
+    width: 192px;
+    height: 42px;
+    margin: 0 20px;
+    line-height: 42px;
+    text-align: center;
+    font-family: 'pre';
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #d9c596;
+    transition: 0.4s;
+}
+/* 본문 섹션1 - 타이틀 하단 호버 */
+.section1 .title .title_b a:hover{
+    background-color: #3b312b;
+    color: #ffff;
+}
+
+/* 본문 섹션1 - 제품 */
+.section1 .wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.section1 .wrap .items{
+    width: 295px;
+    height: 389px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.section1 .wrap .items .image img{
+    display: block;
+    margin: 0 auto;
+    transition: 0.5s;
+    transition-delay: 0.45s;
+}
+.section1 .wrap .items .text{
+    background-color: #f7f7fd;
+    width: 295px;
+    height: 500px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transform: translateY(60%);
+    transition: 0.7s;
+    transition-delay: 0.3s;
+}
+.section1 .wrap .items .text h3{
+    font-family: 'pre';
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 110px;
+
+}
+.section1 .wrap .items .text p{
+    font-family: 'pre_re';
+    font-size: 18px;
+    color: #caad68;
+    margin-bottom: 40px;
+}
+.section1 .wrap .items .text .text_under{
+    font-family: 'pre';
+    font-weight: 300;
+}
+.section1 .wrap .items .text .text_under h4{
+    padding-top: 10px;
+}
+
+/* 본문 섹션1 - 제품 호버 */
+.section1 .wrap .items:hover .text {
+    z-index: 1;
+    background-color: #f7f7fdc9;
+    transform: translateY(20%);
+}
+.section1 .wrap .items:hover .image img{
+    opacity: 50%;
+    transform: scale(0.8);
+}
+
+
+/* 본문 섹션2 PASCUCCIS SNS */
+.section2 .title {
+    text-align: center;
+    font-family: 'Gm_bold';
+    margin-bottom: 50px;
+}
+.section2 .title h1{
+    font-size: 40px;
+}
+.section2 .title p{
+    font-size: 20px;
+    color: #717171;
+}
+
+.section2 .wrap2{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.section2 .wrap2 .items2{
+    position: relative;
+}
+.section2 .wrap2 .items2 .image_sns{
+    border-radius: 147.5px 0 147.5px 147.5px;
+    overflow: hidden;
+}
+.section2 .wrap2 .items2 .image_sns img{
+    transition: 0.6s;
+}
+.section2 .wrap2 .items2 .image_icon img{
+    display: block;
+    margin: 0 auto;
+    background-color: #484848;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -5%;
+    left: 43%;
+}
+/* 본문 섹션2 - 이미지 호버 */
+.section2 .wrap2 .items2 .image_sns:hover img{
+    transform: scale(1.2);
+}
+
+
+/* 본문 섹션3 매장명 검색란 및 설명회 안내버튼 */
+.section3 {
+    width: 1280px;
+    margin: 120px auto;
+}
+.section3 .wrap3{
+    height: 710px;
+    display: flex;
+    justify-content: center;
+}
+
+.section3 .wrap3 .item_left img{
+    width: 610px;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+/* 본문 섹션3 - 매장명 검색 */
+.section3 .wrap3 .item_right .right_1{
+    position: relative;
+    margin-bottom: 15px;
+}
+.section3 .wrap3 .item_right .right_1 .text{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: #fff;
+}
+.section3 .wrap3 .item_right .right_1 .text h2{
+    font-family: 'Gm_bold';
+    font-size: 50px;
+    line-height: 1.2;
+}
+.section3 .wrap3 .item_right .right_1 .text span{
+    font-family: 'Gm';
+    font-weight: 300;
+}
+.section3 .wrap3 .item_right .right_1 .text > p{
+    font-family: 'pre';
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0 0 40px;
+}
+.section3 .wrap3 .item_right .right_1 .text .text_search{
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #fff;
+}
+.section3 .wrap3 .item_right .right_1 .text .text_search .text_b1 {
+    border: none;
+    outline: none;
+    background-color: #ffffff00;
+    color: #fff;
+    font-family: 'pre';
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.section3 .wrap3 .item_right .right_1 .text .text_search .text_b2{
+    background-color: #ffffff00;
+    margin-right: 20px;
+    width: 50px;
+    border: none;
+}
+
+/* 본문 섹션3 - 설명회 안내 */
+.section3 .wrap3 .item_right .right_2{
+    position: relative;
+    overflow: hidden;
+}
+.section3 .wrap3 .item_right .right_2 img{
+    display: block;
+    width: 610px;
+    height: 174px;
+    object-fit: cover;
+    filter: brightness(50%);
+    transition: 0.7s;
+}
+
+.section3 .wrap3 .item_right .right_2 .text{
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.section3 .wrap3 .item_right .right_2 .text h3{
+    font-family: 'Gm_bold';
+    font-size: 30px;
+}
+.section3 .wrap3 .item_right .right_2 .text p{
+    position: relative;
+    font-family: 'pre_re';
+    font-size: 20px;
+}
+.section3 .wrap3 .item_right .right_2 .text p::before{
+    content: '';
+    position: absolute;
+    top: -15%;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: 0.7s;
+    background-color: #fff;
+}
+/* 본문섹션3 - 호버 */
+.section3 .wrap3 .item_right .right_2:hover .text p::before{
+    width: 200px;
+}
+.section3 .wrap3 .item_right .right_2 img:hover{
+    transform: scale(1.2);
+}
+
+
+/* 푸터 영역 */
+.footer{
+    background-color: #333333;
+    height: 100%;
+}
+.footer .wrap4{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* 푸터 - 왼쪽 구역 */
+.footer .wrap4 .f_left{
+    margin: 65px 0 50px;
+    color: #f5f5f5;
+}
+.footer .wrap4 .f_left .icon_l{
+    margin:5px 0;
+}
+.footer .wrap4 .f_left .image_l{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+.footer .wrap4 .f_left .text_l{
+    font-family: 'pre_bold';
+}
+/* 푸터 - 오른쪽 구역 */
+.footer .wrap4 .f_right{
+    margin: 65px 0 50px;
+    color: #f5f5f5;
+}
+.footer .wrap4 .f_right .ul_r{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .wrap4 .f_right .ul_r li{
+    margin-right: 40px;
+}
+.footer .wrap4 .f_right .ul_r .ul_title{
+    font-family: 'pre_bold';
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+.footer .wrap4 .f_right .ul_r .ul_text{
+    font-family: 'pre';
+    font-weight: 400;
+}
+.footer .wrap4 .f_right .ul_r .ul_text li{
+    padding-bottom: 3px;
+}
